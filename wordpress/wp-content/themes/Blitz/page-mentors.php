@@ -1,3 +1,7 @@
+<?php
+/**
+ * Template Name: Mentors
+ */?>
 <?php get_header(); ?>
 
 

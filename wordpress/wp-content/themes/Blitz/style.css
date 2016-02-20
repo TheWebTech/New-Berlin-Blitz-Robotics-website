@@ -84,6 +84,13 @@ display:block;}
     flex: 1 1 20%;
     padding: 0 20px 0 20px;
 }
+
+.all-students .student {
+    background: yellow;
+    border-radius: 9px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
 @media (max-width:767px){
 	.sponsor-logo-parade .logo-wrapper {
     flex: 1 1 50%;

@@ -1,15 +1,21 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Students
+ */?>
+	<?php get_header(); ?>
 
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-		<div class="sidebar"></div>
-		</div>
-		<div class="col-mid-8">
-		<main>
-				<?php if ( have_posts() ) : ?><!--check if the page has content -->
-					<?php while ( have_posts() ) : the_post(); ?><!-- for all of the content that it has -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="sidebar"></div>
+			</div>
+			<div class="col-md-8">
+				<main>
+					<?php if ( have_posts() ) : ?>
+					<!--check if the page has content -->
+					<?php while ( have_posts() ) : the_post(); ?>
+					<!-- for all of the content that it has -->
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
@@ -34,48 +40,83 @@
 					</article>
 					<!-- #post-## -->
 
-					<?php endwhile; ?>
-					<?php endif; ?>
-			</main>
-			
-			<?php
+
+				</main>
 
 
+				<?php if( have_rows('student')): ?>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="all-students">
 
-?>
-<?php if( have_rows('sponsor') ): ?>
 
-	<div class="all-students">
+							<?php while(have_rows('student')): the_row(); ?>
 
-	<?php while( have_rows('sponsor') ): the_row(); 
+							<div class="student">
+								<div class="row">
+									<?php if(get_sub_field('photo')):?>
+									<!-- if student has photo use this layout-->
+									<div class="col-md-3">
+										<img src="<?php the_sub_field('photo');?>" class="center-block" alt="<?php the_sub_field('first_name');?> <?php the_sub_field('last_name');?>" class="photo">
+									</div>
+									<div class="col-md-9">
+										<div class="info">
+											<h3 class="name">
+												<?php the_sub_field('first_name');?>
+												<?php the_sub_field('last_name');?>
+											</h3>
+											<div class="school">
+												School: <?php the_sub_field('school');?>
+											</div>
+											<div class="years-on-team">
+												Years on team: <?php the_sub_field('years_on_team');?>
+											</div>
+											<div class="roles">
+												Roles: <?php the_sub_field('roles');?>
+											</div>
 
-		// vars
-		
-		$link = get_sub_field('link_to_sponsors_website');
+										</div>
 
-		?>
+									</div>
+									<?php else:?>
+									<div class="col-md-12">
+										<div class="info">
+											<h3 class="name">
+												<?php the_sub_field('first_name');?>
+												<?php the_sub_field('last_name');?>
+											</h3>
+											<?php if(get_sub_field('school')):?>
+											<div class="school">
+												School: <?php the_sub_field('school');?>
+											</div>
+											<?php endif; ?>
+											<?php if(get_sub_field('years_on_team')):?>
+											<div class="years-on-team">
+												Years on team: <?php the_sub_field('years_on_team');?>
+											</div>
+											<?php endif; ?>
+											<?php if(get_sub_field('roles')):?>
+											<div class="roles">
+												Roles: <?php the_sub_field('roles');?>
+											</div>
+											<?php endif; ?>
+										</div>
 
-		<div class="logo-wrapper">
+									</div>
 
-			<?php if( $link ): ?>
-				<a href="<?php the_sub_field('link_to_sponsors_website');?>" target="_blank">
-			<?php endif; ?>
+									<?php endif;?>
+								</div>
+							</div>
 
-				<img class="center-block" src="<?php the_sub_field('sponsor_logo'); ?>" alt="<?php the_sub_field('sponsor_name'); ?>" />
+							<?php endwhile; ?>
+						</div>
+					</div>
 
-			<?php if( $link ): ?>
-				</a>
-			<?php endif; ?>
-
-		  
-
+				</div>
+				<?php endif;?>
+				<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
 		</div>
 
-	<?php endwhile; ?>
-			
-			
-		</div>
-	</div>
-</div>
-
-<?php get_footer( $name ); ?>
+		<?php get_footer( $name ); ?>

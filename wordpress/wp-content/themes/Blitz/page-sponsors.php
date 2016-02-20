@@ -1,3 +1,7 @@
+<?php
+/**
+ * Template Name: Sponsors
+ */?>
 <?php get_header(); ?>
 
 
@@ -44,7 +48,8 @@
 			<div class="col-md-12">
 				<!--the PHP code below pulls all of our sponsors logos from the sponsors page and displays them here -->
 
-<?php if( have_rows('sponsor') ): ?>
+
+				<?php if( have_rows('sponsor') ): ?>
 
 	<div class="sponsor-logo-parade">
 
