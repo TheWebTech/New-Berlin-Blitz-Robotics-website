@@ -37,15 +37,16 @@
 					<?php endwhile; ?>
 					<?php endif; ?>
 			</main>
-			
-			<?php
+		</div>
+	</div>
+</div>
+		<div class="row">
+			<div class="col-md-12">
+				<!--the PHP code below pulls all of our sponsors logos from the sponsors page and displays them here -->
 
-
-
-?>
 <?php if( have_rows('sponsor') ): ?>
 
-	<div class="all-students">
+	<div class="sponsor-logo-parade">
 
 	<?php while( have_rows('sponsor') ): the_row(); 
 
@@ -72,10 +73,11 @@
 		</div>
 
 	<?php endwhile; ?>
-			
-			
-		</div>
+
 	</div>
-</div>
+
+<?php endif; ?>
+			</div>
+		</div>
 
 <?php get_footer( $name ); ?>
