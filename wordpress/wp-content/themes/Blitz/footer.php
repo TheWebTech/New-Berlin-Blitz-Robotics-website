@@ -32,7 +32,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<!--The script below allows us to use some of the javascript features of bootstrap to learn more http://getbootstrap.com/javascript/ -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-	<script src="<?php echo get_template_directory_uri ()?>/scripts.js"></script>
+	<script src="<?php echo get_template_directory_uri ()?>/js/scripts.js"></script>
 	<!-- this allows wordpress(our back-end) to insert code at the bottom of our template if needed-->
 	<?php wp_footer(); ?>
 

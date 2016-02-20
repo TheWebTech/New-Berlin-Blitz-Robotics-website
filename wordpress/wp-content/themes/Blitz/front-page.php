@@ -26,7 +26,7 @@ echo do_shortcode('[smartslider3 slider=3]');
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 wow rotateInUpRight">
 				<?php the_field('about_frc') ?>
 				
 			</div>

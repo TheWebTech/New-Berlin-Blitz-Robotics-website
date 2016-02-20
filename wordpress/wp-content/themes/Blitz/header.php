@@ -8,6 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<title>
 		<?php wp_title(); ?>
 	</title>
@@ -22,6 +24,10 @@
 	<!-- below is the link to our stylesheet, where we  make things look prettyrific, css styles go in that file -->
 
 	<link href="<?php echo get_template_directory_uri ()?>/style.css" rel="stylesheet">
+	<script>new WOW().init();</script>
+	
+	
+	
 	<?php wp_head(); ?><!-- this code allows Wordpress to insert things into the header like stylesheets-->
 </head>
 
@@ -30,14 +36,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					
+					<div class="logo-container wow bounceIn">
 
-						<a href="<?php echo home_url()?>"><!-- home_url prints the websites home page address -->
+						<a class="" href="<?php echo home_url()?>"><!-- home_url prints the websites home page address -->
 					<img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" class="header-logo" width="84">
 					<span class="logo-text">
 						<?php bloginfo('name'); ?><!-- this code prints the site name in wordpress settings "New Berlin Blitz Robotics" -->
 					</span>
 						</a>
+						</div>
 					
 
 				</div>
@@ -48,7 +55,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="navbar navbar-default" role="navigation">
+					<nav class="navbar navbar-default wow lightSpeedIn" data-wow-delay="0.5s" role="navigation">
 						<div class="navbar-header">
 
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
