@@ -2,18 +2,20 @@
 /**
  * Template Name: Mentors
  */?>
-<?php get_header(); ?>
+	<?php get_header(); ?>
 
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-		<div class="sidebar"></div>
-		</div>
-		<div class="col-mid-8">
-		<main>
-				<?php if ( have_posts() ) : ?><!--check if the page has content -->
-					<?php while ( have_posts() ) : the_post(); ?><!-- for all of the content that it has -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="sidebar"></div>
+			</div>
+			<div class="col-md-8">
+				<main>
+					<?php if ( have_posts() ) : ?>
+					<!--check if the page has content -->
+					<?php while ( have_posts() ) : the_post(); ?>
+					<!-- for all of the content that it has -->
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
@@ -38,60 +40,93 @@
 					</article>
 					<!-- #post-## -->
 
-					<?php endwhile; ?>
-					<?php endif; ?>
-			</main>
-			
-			
-<?php
 
-$mentor_page = 11;
+				</main>
 
-?>
 
-<?php if( have_rows('mentor',$sponsor_page) ): ?>
+				<?php if( have_rows('mentor')): ?>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="all-mentors">
 
-	<div class="all-mentors">
 
-	<?php while( have_rows('mentor',$sponsor_page) ): the_row(); 
+							<?php while(have_rows('mentor')): the_row(); ?>
 
-		// vars
-		$first_name = get_sub_field('first_name');
-		$last_name = get_sub_field('sponsor_logo');
-		$photo = get_sub_field('photo');
-		$job_title = get_sub_field('job_title');
-		$employers = get_sub_field('employers');
-		$employers_website = get_sub_field('employers_website');
-		$robot_doctor = get_sub_field('robot_doctor');
-			
-		
-		?>
+								<div class="mentor">
+									<div class="row">
+										<?php if(get_sub_field('photo')):?>
+										<!-- if student has photo use this layout-->
+										<div class="col-md-3">
+											<img src="<?php the_sub_field('photo');?>" class="center-block" alt="<?php the_sub_field('first_name');?> <?php the_sub_field('last_name');?>" class="photo">
+										</div>
+										<div class="col-md-9">
+											<div class="info">
+												<h3 class="name">
+													<?php the_sub_field('first_name');?>
+													<?php the_sub_field('last_name');?>
+												</h3>
+												<div class="school">
+													<?php the_sub_field('job_title');?>
+												</div>
+												<div class="employer">
+													<?php if(get_sub_field('employers_website')):?>
+													<a href="<?php the_sub_field('employers_website');?>">
+														<?php endif; ?>
+														<?php the_sub_field('employers');?>
+													<?php if(get_sub_field('employers_website')):?>
+													</a>
+													<?php endif; ?>
+												</div>
+													<?php if(get_sub_field('robot_doctor')):?>
+														<div class="roles">
+															If you were a Robot Doctor what would you specialize in?
+															<br>
+															<?php the_sub_field('robot_doctor');?>
+														</div>
+													<?php endif;?>
+												
+												<?php else:?>
+												<div class="info">
+													<h3 class="name">
+													<?php the_sub_field('first_name');?>
+													<?php the_sub_field('last_name');?>
+												</h3>
+													<div class="school">
+														<?php the_sub_field('job_title');?>
+													</div>
+													<div class="years-on-team">
+														 <?php if(get_sub_field('employers_website')):?>
+														<a href="<?php the_sub_field('employers_website');?>">
+															<?php endif; ?>
+															<?php the_sub_field('employers');?>
+															<?php if(get_sub_field('employers_website')):?>
+														</a>
+														<?php endif; ?>
+													</div>
+													<?php if(get_sub_field('robot_doctor')):?>
+													<div class="roles">
+														If you were a Robot Doctor what would you specialize in?
+														<br>
+														<?php the_sub_field('robot_doctor');?>
+													</div>
+															<?php endif;?>
+												</div>
+												
+												
+												
+												<?php endif;?>
+											</div>
+										</div>
 
-		<div class="mentor">
+									<?php endwhile; ?>
+								</div>
+							</div>
 
-			<?php if( $link ): ?>
-				<a href="<?php echo $link; ?>">
-			<?php endif; ?>
+						</div>
+						<?php endif;?>
+						<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
+				</div>
 
-				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-
-			<?php if( $link ): ?>
-				</a>
-			<?php endif; ?>
-
-		  
-
-		</div>
-
-	<?php endwhile; ?>
-
-	</ul>
-
-<?php endif; ?>
-			
-			
-		</div>
-	</div>
-</div>
-
-<?php get_footer( $name ); ?>
+				<?php get_footer( $name ); ?>
