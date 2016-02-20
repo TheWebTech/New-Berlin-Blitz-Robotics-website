@@ -4,11 +4,8 @@
 			<div class="col-md-offset-1 col-md-4">
 				<div class="upper-left-rich-text">
 				<!-- the code that says get_template_directory_uri inserts the file path to our template -->
-					<?php the_field('upper_left_description');?>
-				<!-- <img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" alt="Bootstrap Image Preview" width="174" class="center-block">
-				<p>
-					New Berlin Blitz is a joint FRC team between two schools: New Berlin West and New Berlin Eisenhower. The team was formed in 2013 and has been growing and developing since.
-				</p>-->
+					<?php the_field('description');?>
+				
 				</div>
 			</div>
 			<div class="col-md-7 slideshow">
@@ -30,12 +27,8 @@ echo do_shortcode('[smartslider3 slider=3]');
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<img alt="FIRST Logo" src="<?php echo get_template_directory_uri ()?>/images/FIRST_Horz_RGB.png" class="img-responsive">
-				<p>
-					Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et,
-					pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum
-					nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-				</p>
+				<?php the_field('about_frc') ?>
+				
 			</div>
 			<div class="col-md-6">
 

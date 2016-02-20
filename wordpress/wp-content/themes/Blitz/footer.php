@@ -8,17 +8,18 @@
 			</div>
 			<div class="row">
 				<!-- social media icons -->
-				<div class="col-md-6">
-					<i class="fa fa-facebook"></i>
+			
+				<div class="col-md-12">
+					<div class="social-icons text-center">
+					<a href="https://www.facebook.com/Blitz5148/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/Blitz5148"><i class="fa fa-twitter"></i></a>
 					</div>
-				<div class="col-md-6">
-					<i class="fa fa-twitter"></i>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-12">
-					<div class="footer-copyright">
+					<div class="footer-copyright text-center">
 						<p>Copyright New Berlin Blitz
 						</p>
 					</div>
