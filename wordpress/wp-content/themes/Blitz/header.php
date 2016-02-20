@@ -20,8 +20,9 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
 		crossorigin="anonymous">
 	<!-- below is the link to our stylesheet, where we  make things look prettyrific, css styles go in that file -->
+
 	<link href="<?php echo get_template_directory_uri ()?>/style.css" rel="stylesheet">
-	<?php wp_head(); ?>
+	<?php wp_head(); ?><!-- this code allows Wordpress to insert things into the header like stylesheets-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -29,31 +30,36 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
+					
 
-					<img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" class="header-logo" width="84"> 
+						<a href="<?php echo home_url()?>"><!-- home_url prints the websites home page address -->
+					<img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" class="header-logo" width="84">
 					<span class="logo-text">
 						<?php bloginfo('name'); ?><!-- this code prints the site name in wordpress settings "New Berlin Blitz Robotics" -->
 					</span>
+						</a>
+					
 
 				</div>
 			</div>
 		</div>
 	</div>
-<div class="main-menu">
-	<div class="row">
-		<div class="col-md-12">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="navbar-header">
+	<div class="main-menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
-				</div>
+						</div>
 
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<!-- this generates the site's menu, to add links to the menu, sign in and go to appearance > Menus -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<!-- this generates the site's menu, to add links to the menu, sign in and go to appearance > Menus -->
 
-					<?php wp_nav_menu( array( 
+							<?php wp_nav_menu( array( 
 								'theme_location'=>'top_menu',
 								'depth' => 2,
 								'container' => false,
@@ -61,10 +67,11 @@
 								'fallback_cb' => 'wp_page_menu',
 								'walker' => new wp_bootstrap_navwalker()) ); ?>
 
-				</div>
+						</div>
 
-			</nav>
+					</nav>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
 	<!-- end of header -->

@@ -1,21 +1,24 @@
 <?php get_header(); ?>
-<div class="container">
+
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-offset-1 col-md-4">
+				<div class="upper-left-rich-text">
 				<!-- the code that says get_template_directory_uri inserts the file path to our template -->
-				<img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" alt="Bootstrap Image Preview" width="174" class="center-block">
+					<?php the_field('upper_left_description');?>
+				<!-- <img src="<?php echo get_template_directory_uri ()?>/images/image NB blitz.png" alt="Bootstrap Image Preview" width="174" class="center-block">
 				<p>
 					New Berlin Blitz is a joint FRC team between two schools: New Berlin West and New Berlin Eisenhower. The team was formed in 2013 and has been growing and developing since.
-				</p>
+				</p>-->
+				</div>
 			</div>
-			<div class="col-md-8 slideshow">
+			<div class="col-md-7 slideshow">
 				<!-- the code below is from our wordpress slideshow plugin, to edit the slide show sign into the back end-->
 		<?php 
 echo do_shortcode('[smartslider3 slider=3]');
 ?>
 			</div>
 		</div>
-	</div>
+
 
 	<div class="row">
 		<div class="col-md-12"><?php $uploads = wp_upload_dir();?>

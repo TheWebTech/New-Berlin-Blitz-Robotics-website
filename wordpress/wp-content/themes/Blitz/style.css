@@ -21,6 +21,7 @@ display: inline-block;
 margin-top: 10px;
 }
 
+
 .page-wrapper{
   max-width: 900px;/*this forces the page contents to not go past 900 pixels wide*/
   margin:0 auto; /*This is forces the page contents to be centered*/
@@ -34,7 +35,8 @@ margin-top: 10px;
 	color: #000000; 
 	background-color: yellow;
 } 
-.navbar-default {
+.main-menu{background-color:#000}
+.main-menu .navbar-default {
   background-color: black;
   color: white;
   border-radius:0;
@@ -43,6 +45,9 @@ margin-top: 10px;
 .navbar-default a { color: white;
   
 }
+.upper-left-rich-text{    margin-top: 45px;
+    padding: 0 15px;}
+
 .navbar{
 	    margin-bottom: 0;
 	

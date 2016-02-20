@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#"class="no-js">
+<!--beginning of header -->
+
+<head><link rel="stylesheet" type="text/css" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/minify/000000/bcxBCoBACEDRCyXWqn03CccBwXFAjajTN1DL1v_xZ9xU8sbIS3lakLrlTgm1e4MVxUiPwoEU8ZoYKKWxijHkKZnsUJkL-sd-K1QfZ7byAA.css" media="all" />
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="pingback" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/xmlrpc.php">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<title>
+		New Berlin Blitz Robotics - FRC Team 5148	</title>
+	<!-- our site's title is controlled in the back end-->
+
+	<meta name="description" content="">
+	<meta name="author" content="Students of New Berlin">
+	<!-- below is a reference to bootstrap, this is what makes the rows and columns of our site work to learn more go to http://getbootstrap.com/css/ -->
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Cabin+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+		crossorigin="anonymous">
+	<!-- below is the link to our stylesheet, where we  make things look prettyrific, css styles go in that file -->
+	
+	
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<link rel="canonical" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="New Berlin Blitz Robotics - FRC Team 5148" />
+<meta property="og:description" content="5148 New Berlin Blitz New Berlin Blitz is a joint FRC team between two schools: New Berlin West and New Berlin Eisenhower.  The team was formed in 2013 and has been growing and developing since. LEARN MORE&#8230;" />
+<meta property="og:url" content="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/" />
+<meta property="og:site_name" content="New Berlin Blitz Robotics" />
+<meta property="og:image" content="http://team5148.org/dev/wp-content/uploads/2016/02/highresolutionnobackground.png" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="5148 New Berlin Blitz New Berlin Blitz is a joint FRC team between two schools: New Berlin West and New Berlin Eisenhower.  The team was formed in 2013 and has been growing and developing since. LEARN MORE&#8230;"/>
+<meta name="twitter:title" content="New Berlin Blitz Robotics - FRC Team 5148"/>
+<meta name="twitter:site" content="@Blitz5148"/>
+<meta name="twitter:image" content="http://team5148.org/dev/wp-content/uploads/2016/02/highresolutionnobackground.png"/>
+<meta name="twitter:creator" content="@Blitz5148"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com\/wordpress\/","name":"New Berlin Blitz Robotics Team 5148","alternateName":"FRC Team 5148 New Berlin Blitz","potentialAction":{"@type":"SearchAction","target":"http:\/\/preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com\/wordpress\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com\/wordpress\/","sameAs":["https:\/\/www.facebook.com\/Blitz5148","https:\/\/twitter.com\/Blitz5148"],"name":"New Berlin Blitz","logo":"http:\/\/team5148.org\/dev\/wp-content\/uploads\/2016\/02\/highresolutionnobackground.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/minify/000000/K88vSikoSi0u1i8v0M3MS84pTUkt1s8CosLS1KJKKKVTTpQy3dzM9KLEklS93Mw8AA.js"></script>
+<link rel='https://api.w.org/' href='http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/' />
+<!-- Stream WordPress user activity plugin v3.0.4 -->
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><link rel="stylesheet" type="text/css" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/nextend-frontend/nextend-frontend.css?1455960440" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/n2-ss-3/n2-ss-3.css?1455960440" media="screen, print" />
+<script type="text/javascript">window.N2PRO=0;window.N2GSAP=0;window.N2PLATFORM="wordpress";window.nextend={localization: {}, deferreds:[], loadScript: function(url){n2jQuery.ready(function () {nextend.deferreds.push(n2.ajax({url:url,dataType:"script",cache:true,error:function(){console.log(arguments)}}))})}, ready: function(cb){n2.when.apply(n2, nextend.deferreds).done(function(){cb.call(window,n2)})}};window.N2SSPRO=0;window.N2SSWHYPRO="http://smartslider3.com/why-upgrade-to-pro/";
+</script><script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/n2/n2.js?1455960440"></script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/nextend-frontend/nextend-frontend.js?1455960440"></script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/smartslider-frontend/smartslider-frontend.js?1455960440"></script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/n2-ss-3/n2-ss-3.js?1455960440"></script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/nextend/web/smartslider-simple-type-frontend/smartslider-simple-type-frontend.js?1455960440"></script>
+<script type="text/javascript">
+window.n2jQuery.ready((function($){
+	window.nextend.ready(function() {
+new NextendSmartSliderSimple(n2('#n2-ss-3'), {"admin":false,"isStaticEdited":0,"translate3d":1,"randomize":0,"callbacks":"","align":"center","load":{"fade":1,"scroll":0,"spinner":"<div><div class=\"n2-ss-spinner-simple-white-container\"><div class=\"n2-ss-spinner-simple-white\"><\/div><\/div>\r\n<style type=\"text\/css\">\r\n.n2-ss-spinner-simple-white-container {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    margin: -20px;\r\n    background: #fff;\r\n    width: 20px;\r\n    height: 20px;\r\n    padding: 10px;\r\n    border-radius: 50%;\r\n    z-index: 1000;\r\n}\r\n\r\n.n2-ss-spinner-simple-white {\r\n  outline: 1px solid RGBA(0,0,0,0);\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n\r\n.n2-ss-spinner-simple-white:before {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 20px;\r\n    height: 20px;\r\n    margin-top: -11px;\r\n    margin-left: -11px;\r\n}\r\n\r\n.n2-ss-spinner-simple-white:not(:required):before {\r\n    content: '';\r\n    border-radius: 50%;\r\n    border-top: 2px solid #333;\r\n    border-right: 2px solid transparent;\r\n    animation: n2SimpleWhite .6s linear infinite;\r\n    -webkit-animation: n2SimpleWhite .6s linear infinite;\r\n}\r\n@keyframes n2SimpleWhite {\r\n    to {transform: rotate(360deg);}\r\n}\r\n\r\n@-webkit-keyframes n2SimpleWhite {\r\n    to {-webkit-transform: rotate(360deg);}\r\n}\r\n\r\n<\/style>"},"playWhenVisible":1,"responsive":{"desktop":1,"tablet":1,"mobile":1,"onResizeEnabled":true,"type":"auto","downscale":1,"upscale":0,"minimumHeight":0,"maximumHeight":3000,"maximumSlideWidth":3000,"maximumSlideWidthLandscape":3000,"maximumSlideWidthTablet":3000,"maximumSlideWidthTabletLandscape":3000,"maximumSlideWidthMobile":3000,"maximumSlideWidthMobileLandscape":3000,"maximumSlideWidthConstrainHeight":0,"forceFull":0,"verticalOffsetSelectors":"","focusUser":0,"focusAutoplay":0,"deviceModes":{"desktopPortrait":1,"desktopLandscape":0,"tabletPortrait":1,"tabletLandscape":0,"mobilePortrait":1,"mobileLandscape":0},"normalizedDeviceModes":{"unknownUnknown":["unknown","Unknown"],"desktopPortrait":["desktop","Portrait"],"desktopLandscape":["desktop","Portrait"],"tabletPortrait":["tablet","Portrait"],"tabletLandscape":["tablet","Portrait"],"mobilePortrait":["mobile","Portrait"],"mobileLandscape":["mobile","Portrait"]},"verticalRatioModifiers":{"unknownUnknown":1,"desktopPortrait":1,"desktopLandscape":1,"tabletPortrait":1,"tabletLandscape":1,"mobilePortrait":1,"mobileLandscape":1},"minimumFontSizes":{"desktopPortrait":4,"desktopLandscape":4,"tabletPortrait":4,"tabletLandscape":4,"mobilePortrait":4,"mobileLandscape":4},"ratioToDevice":{"Portrait":{"tablet":0.7,"mobile":0.5},"Landscape":{"tablet":0,"mobile":0}},"sliderWidthToDevice":{"desktopPortrait":900,"desktopLandscape":900,"tabletPortrait":630,"tabletLandscape":0,"mobilePortrait":450,"mobileLandscape":0},"basedOn":"combined","tabletPortraitScreenWidth":800,"mobilePortraitScreenWidth":440,"tabletLandscapeScreenWidth":800,"mobileLandscapeScreenWidth":440,"orientationMode":"width_and_height"},"controls":{"scroll":0,"drag":1,"touch":"horizontal","keyboard":1,"tilt":0},"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":8000,"autoplayToSlide":-1,"pause":{"click":1,"mouse":"enter","mediaStarted":1},"resume":{"click":0,"mouse":0,"mediaEnded":1,"slidechanged":0}},"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"parallax":{"enabled":1,"mobile":0,"is3D":0,"animate":1,"horizontal":"mouse","vertical":"mouse","origin":"slider","scrollmove":"both"},"initCallbacks":[],"bgAnimations":0,"mainanimation":{"type":"fade","duration":800,"delay":0,"ease":"easeOutQuad","parallax":1,"shiftedBackgroundAnimation":0},"carousel":1,"dynamicHeight":0});
+new NextendSmartSliderWidgetArrowImage("n2-ss-3", 0.8, 0.7, 0.5);
+	});
+}));
+
+</script></head>
+
+<body class="home page page-id-7 page-template-default">
+	<div class="bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<img src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/themes/Blitz/images/image NB blitz.png" class="header-logo" width="84"> 
+					<span class="logo-text">
+						New Berlin Blitz Robotics<!-- this code prints the site name in wordpress settings "New Berlin Blitz Robotics" -->
+					</span>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="main-menu">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<!-- this generates the site's menu, to add links to the menu, sign in and go to appearance > Menus -->
+
+					<ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a title="Our Team" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/our-team/">Our Team</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a title="Sponsors" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/sponsors/">Sponsors</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a title="Contact Us" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/contact-us/">Contact Us</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a title="Sponsor Our Team" href="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/sponsor-the-team/">Sponsor Our Team</a></li>
+</ul>
+				</div>
+
+			</nav>
+		</div>
+	</div>
+</div>
+	<!-- end of header --><div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<!-- the code that says get_template_directory_uri inserts the file path to our template -->
+				<img src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/themes/Blitz/images/image NB blitz.png" alt="Bootstrap Image Preview" width="174" class="center-block">
+				<p>
+					New Berlin Blitz is a joint FRC team between two schools: New Berlin West and New Berlin Eisenhower. The team was formed in 2013 and has been growing and developing since.
+				</p>
+			</div>
+			<div class="col-md-8 slideshow">
+				<!-- the code below is from our wordpress slideshow plugin, to edit the slide show sign into the back end-->
+		
+<!-- Nextend Smart Slider 3 #3 - BEGIN -->
+<div id="n2-ss-3-align" class="n2-ss-align" style="margin: 0 auto; max-width: 900px;"><div class="n2-padding"><div id="n2-ss-3" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
+        <div class="n2-ss-slider-1" style="">
+                        <div class="n2-ss-slider-2">
+                                <div class="n2-ss-slider-3">
+
+                    <div data-slide-duration="0" data-id="7" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style=""><div data-hash="f8493fecdfba1d65e463b1a9bfd0f9f8" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4791.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4791.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="8" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="7bd9d1e6c81a0c31c763d425493f3a44" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4813.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4813.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="9" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="2eb6ba367ba81c842c0067d56301eec2" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4812.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4812.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="10" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="9b3029b30291de99fefd9c32a7cfaa3f" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4788.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4788.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="11" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="d3941042701da7f00e1ab7ce5b519d4d" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4838.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4838.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="12" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="457035937bbac84f9747fc281a85ceed" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4837.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4837.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="13" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="5ab6efeecabc04a5b9c541fc17c2b572" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4821.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4821.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="14" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="cf14c5da992a9a1e1caf76d59d50ce85" data-desktop="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4793.jpg" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="//preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/IMG_4793.jpg" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div>                </div>
+            </div>
+        </div>
+        <div data-ssleft="0+15" data-sstop="height/2-previousheight/2" id="n2-ss-3-arrow-previous" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover n2-style-15329afdebbbb3613a42821e5303182c-heading nextend-arrow n2-ib nextend-arrow-previous  nextend-arrow-animated-fade" style="position: absolute;"><img class="n2-arrow-normal-img" src="data:image/svg+xml;base64," alt="arrow" /><img class="n2-arrow-hover-img" src="data:image/svg+xml;base64," alt="arrow" /></div><div data-ssright="0+15" data-sstop="height/2-nextheight/2" id="n2-ss-3-arrow-next" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover n2-style-15329afdebbbb3613a42821e5303182c-heading nextend-arrow n2-ib nextend-arrow-next  nextend-arrow-animated-fade" style="position: absolute;"><img class="n2-arrow-normal-img" src="data:image/svg+xml;base64," alt="arrow" /><img class="n2-arrow-hover-img" src="data:image/svg+xml;base64," alt="arrow" /></div>
+</div><div class="clear"></div></div></div><div style="clear: both"></div><div id="n2-ss-3-placeholder" style="position: relative;z-index:2;"><img style="width: 100%; max-width:3000px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI1MDAiID48L3N2Zz4=" alt="" /></div>
+<!-- Nextend Smart Slider 3 #3 - END -->
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">			<img alt="Hexagonal horizontal rule" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/hexagon-horizontal-rule-01.svg">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img alt="FIRST Logo" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/themes/Blitz/images/FIRST_Horz_RGB.png" class="img-responsive">
+				<p>
+					Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et,
+					pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum
+					nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+				</p>
+			</div>
+			<div class="col-md-6">
+
+				<!-- we need to talk to zach or Ms. Mckinnon to find out who has the twitter login info in order to get this to work.-->
+				<div class="timeline-twitter-feed" id="bac9a258610215fffc1aeae248313ccc" data-shortcode="{timeline-twitter-feed}"><div class="ttf-tweet"><div class="ttf-tweet-row"><span class="ttf-tweet-user-name"><a class="ttf-tweet-screen-name" href="https://twitter.com/intent/user?screen_name=Blitz5148" target="_blank" rel="nofollow">Team 5148</a></span> <span class="ttf-tweet-full-name">@Blitz5148</span></div><div class="ttf-tweet-row"><div class="ttf-tweet-text">Tune in to watch the reveal of the new 2016 game, FIRST Stronghold <a href="https://twitter.com/9am" target="_blank">@9am</a>. <a href="https://t.co/IHIuzVOZgo" target="_blank" rel="nofollow">https://t.co/IHIuzVOZgo</a> <a href="https://t.co/KWZrLFY0mU" target="_blank" rel="nofollow">https://t.co/KWZrLFY0mU</a></div></div><div class="ttf-tweet-row"><a class="ttf-tweet-timestamp" href="http://twitter.com/Blitz5148/statuses/685671399038521344" target="_blank" rel="nofollow"><span class="ttf-timestamp">(about 42 days ago) </span></a></div></div><div class="ttf-tweet"><div class="ttf-tweet-row"><span class="ttf-tweet-user-name"><a class="ttf-tweet-screen-name" href="https://twitter.com/intent/user?screen_name=Blitz5148" target="_blank" rel="nofollow">Team 5148</a></span> <span class="ttf-tweet-full-name">@Blitz5148</span></div><div class="ttf-tweet-row"><div class="ttf-tweet-text">RT <a href="https://twitter.com/FIRSTweets" target="_blank">@FIRSTweets</a>: We challenge you to share the FIRST STRONGHOLD teaser w/ at least FIVE people who aren&#039;t familiar with FIRST: <a href="https://t.co/" target="_blank" rel="nofollow">https://t.co/</a>…</div></div><div class="ttf-tweet-row"><a class="ttf-tweet-timestamp" href="http://twitter.com/Blitz5148/statuses/654856842376585217" target="_blank" rel="nofollow"><span class="ttf-timestamp">(about 127 days ago) </span></a></div></div><div class="ttf-tweet"><div class="ttf-tweet-row"><span class="ttf-tweet-user-name"><a class="ttf-tweet-screen-name" href="https://twitter.com/intent/user?screen_name=Blitz5148" target="_blank" rel="nofollow">Team 5148</a></span> <span class="ttf-tweet-full-name">@Blitz5148</span></div><div class="ttf-tweet-row"><div class="ttf-tweet-text">RT <a href="https://twitter.com/SenatorBaldwin" target="_blank">@SenatorBaldwin</a>: Great to be joined by <a href="https://twitter.com/hashtag/STEM?src=hash" target="_blank">#STEM</a> students from New Berlin HS for today’s tour of <a href="https://twitter.com/WaukeshaMetal" target="_blank">@WaukeshaMetal</a> on <a href="https://twitter.com/hashtag/MFGDay15?src=hash" target="_blank">#MFGDay15</a>! <a href="http://t.co/Lr" target="_blank" rel="nofollow">http://t.co/Lr</a>…</div></div><div class="ttf-tweet-row"><a class="ttf-tweet-timestamp" href="http://twitter.com/Blitz5148/statuses/649985542302605313" target="_blank" rel="nofollow"><span class="ttf-timestamp">(about 141 days ago) </span></a></div></div><div class="ttf-tweet"><div class="ttf-tweet-row"><span class="ttf-tweet-user-name"><a class="ttf-tweet-screen-name" href="https://twitter.com/intent/user?screen_name=Blitz5148" target="_blank" rel="nofollow">Team 5148</a></span> <span class="ttf-tweet-full-name">@Blitz5148</span></div><div class="ttf-tweet-row"><div class="ttf-tweet-text">Happy national manufacturing day! <a href="http://t.co/5Cpze1JXnR" target="_blank" rel="nofollow">http://t.co/5Cpze1JXnR</a></div></div><div class="ttf-tweet-row"><a class="ttf-tweet-timestamp" href="http://twitter.com/Blitz5148/statuses/649896221222522880" target="_blank" rel="nofollow"><span class="ttf-timestamp">(about 141 days ago) </span></a></div></div></div><a href="https://twitter.com/Blitz5148" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="medium">Follow @Blitz5148</a>
+			</div>
+		</div>
+</div>	
+
+		<div class="row">
+			<div class="col-md-12">
+				<!--the PHP code below pulls all of our sponsors logos from the sponsors page and displays them here -->
+
+	<div class="sponsor-logo-parade">
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.rockwellautomation.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Rockwell-Automation.png" alt="Rockwell Automation" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.joyglobal.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/JoyGlobal.png" alt="JoyGlobal" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.johnsoncontrols.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Johnson-Controls.png" alt="Johnson Controls" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.krones.com/en/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Krones.png" alt="Krones" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://corporate.ppg.com/Home.aspx" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/PPG.png" alt="PPG" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.ge.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/GE.gif" alt="GE" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="https://www.dematic.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Dematic.gif" alt="Dematic" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://www.brecoflex.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Brecoflex-Logo-01.svg" alt="Brecoflex" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="http://crossroadspizzasubs.com/newberlinstore/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Crossroads-Logo-1-01.svg" alt="Crossroads" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+		<div class="logo-wrapper">
+
+							<a href="https://www.speedymetals.com/" target="_blank">
+			
+				<img class="center-block" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/uploads/2016/02/Speedy-Metals-Logo-01.svg" alt="Speedy Metals" />
+
+							</a>
+			
+		  
+
+		</div>
+
+	
+	</div>
+
+			</div>
+		</div>
+		
+
+<!-- beginning of footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/themes/Blitz/images/image NB blitz.png" alt="Bootstrap Image Preview" width="174" class="center-block">
+				</div>
+			</div>
+			<div class="row">
+				<!-- social media icons -->
+				<div class="col-md-6">
+					<i class="fa fa-facebook"></i>
+					</div>
+				<div class="col-md-6">
+					<i class="fa fa-twitter"></i>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-copyright">
+						<p>Copyright New Berlin Blitz
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- javascript files get placed just before the </body> (makes pages load faster)-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!--The script below allows us to use some of the javascript features of bootstrap to learn more http://getbootstrap.com/javascript/ -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+	<script src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/themes/Blitz/scripts.js"></script>
+	<!-- this allows wordpress(our back-end) to insert code at the bottom of our template if needed-->
+	<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPAqLC0tSiSj2QjF5uZh4A.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com\/wordpress\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPKtYvTi7KLCgpBgA.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cssTarget = "img.";
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com/wordpress/wp-content/cache/minify/000000/HcpBDoAwCAXRC1mJV1KIwbSU8K29vuhyXmYjPGfBcO9x0wVqaj-pVTUpmcvswR4C0PT0ow4WfG-mtF14zesF.js"></script>
+</body>
+
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Database Caching using disk
+Object Caching 551/1097 objects using disk
+
+ Served from: preview.8tnehk00t9zlg14iiycib4gt69ee9udilu2pj50j5hlg14i.box.codeanywhere.com @ 2016-02-20 16:36:05 by W3 Total Cache -->
