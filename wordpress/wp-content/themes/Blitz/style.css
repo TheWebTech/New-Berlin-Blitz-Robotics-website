@@ -1,0 +1,85 @@
+/*
+Theme Name: New Berlin Blitz
+
+Author: Awesome people on NB Blitz
+*/
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+img{max-width:100%;}
+
+.bar {
+	background-color: black;
+}
+.logo-text {
+color: rgb(5, 5, 5);
+font-size: 36px;
+text-shadow: rgb(94, 97, 86) 0px 3px 3px;
+font-family: 'Cabin Condensed', sans-serif;
+font-weight: bold;
+display: inline-block;
+margin-top: 10px;
+}
+
+.page-wrapper{
+  max-width: 900px;/*this forces the page contents to not go past 900 pixels wide*/
+  margin:0 auto; /*This is forces the page contents to be centered*/
+} 
+
+.header{} /* This holds the whole header section of the site*/
+
+.bar{/*This is just the rectangular shape at the top of the page.*/
+	width: 100%;
+	height: 75px;
+	color: #000000; 
+	background-color: yellow;
+} 
+.navbar-default {
+  background-color: black;
+  color: white;
+  border-radius:0;
+  border:0;
+}
+.navbar-default a { color: white;
+  
+}
+.navbar{
+	    margin-bottom: 0;
+	
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.header .main-menu-container{} /*This is the container for the main menu*/
+
+.header .main-menu-container ul.main-menu{/*This is styling for the main menu*/
+      padding-left: 0;
+} 
+
+.header .main-menu ul li{/*This is the Main Menu in the header of the site */
+  display: inline-block; /* causes the list of menu items to display horizontal*/
+  
+} 
+.header .main-menu ul li a{} /*This controls what the Main Menu links looks like. */
+.header-logo {
+	float: left;
+}
+    
+.sponsor-logo-parade {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-logo-parade .logo-wrapper {
+    flex: 1 1 20%;
+    padding: 0 20px 0 20px;
+}
+@media (max-width:767px){
+	.sponsor-logo-parade .logo-wrapper {
+    flex: 1 1 50%;
+		max-width:50%;
+	}
+	
+}
