@@ -71,7 +71,14 @@ function N2EventBurrito(_this, options) {
                 //in IE7-8 `buttons` is not defined, in IE9 LMB is 0
                 return (e.buttons && e.buttons !== 1);
             }
-        ];
+        ],
+        checkTarget = function(target){
+            var tagName = target.tagName;
+            if(tagName == 'INPUT' || tagName == 'TEXTAREA'){
+                return true;
+            }
+            return false;
+        };
 
     function mergeObjects(targetObj, sourceObject) {
         for (var key in sourceObject) {
@@ -130,6 +137,7 @@ function N2EventBurrito(_this, options) {
         eventType = eType; //leak event type
 
         if (checks[eventType](event)) return;
+        if (checkTarget(event.target)) return;
 
         //attach event listeners to the document, so that the slider
         //will continue to recieve events wherever the pointer is
@@ -162,6 +170,7 @@ function N2EventBurrito(_this, options) {
         if (o.axis == 'x') {
             if ((!o.preventScroll && isScrolling) || checks[eventType](event)) return;
         }
+        if (checkTarget(event.target)) return;
 
         getDiff(event);
 

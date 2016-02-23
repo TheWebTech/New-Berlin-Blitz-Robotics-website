@@ -2,13 +2,13 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-4">
-				<div class="upper-left-rich-text">
+				<div class="upper-left-rich-text wow rotateInUpLeft">
 				<!-- the code that says get_template_directory_uri inserts the file path to our template -->
 					<?php the_field('description');?>
 				
 				</div>
 			</div>
-			<div class="col-md-7 slideshow">
+			<div class="col-md-7 slideshow wow rotateInUpRight">
 				<!-- the code below is from our wordpress slideshow plugin, to edit the slide show sign into the back end-->
 		<?php 
 echo do_shortcode('[smartslider3 slider=3]');
@@ -26,7 +26,7 @@ echo do_shortcode('[smartslider3 slider=3]');
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 wow rotateInUpRight">
+			<div class="col-md-6">
 				<?php the_field('about_frc') ?>
 				
 			</div>

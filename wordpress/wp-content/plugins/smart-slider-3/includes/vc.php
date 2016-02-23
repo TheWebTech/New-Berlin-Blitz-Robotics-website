@@ -54,11 +54,12 @@ class NextendSmartSlider3VisualComposer
         <?php
     }
 
-    public static function removeShortcode()
-    {
-        add_shortcode('smartslider3', function ($atts) {
-            return '<h3>Smart Slider 3 - Slider ID: #' . $atts['slider'] . '</h3><img src="' . NEXTEND_SMARTSLIDER_3_URL . '/images/ss3.jpg" />';
-        });
+    public static function removeShortcode(){
+        add_shortcode('smartslider3', 'NextendSmartSlider3VisualComposer::_removeShortcode');
+    }
+    
+    public static function _removeShortcode($atts) {
+        return '<h3>Smart Slider 3 - Slider ID: #' . $atts['slider'] . '</h3><img src="' . NEXTEND_SMARTSLIDER_3_URL . '/images/ss3.jpg" />';
     }
 }
 

@@ -38,7 +38,9 @@ NextendSmartSliderAdminStorage.prototype.normalizeOffsetX = function (offsetX) {
 
 NextendSmartSliderAdminStorage.prototype.startEditor = function (sliderElementID, slideContentElementID, isUploadDisabled, uploadUrl, uploadDir) {
     if (this.slide === null) {
-        new SmartSliderAdminSlide(sliderElementID, slideContentElementID, isUploadDisabled, uploadUrl, uploadDir);
+        window[sliderElementID].started(function(){
+            new SmartSliderAdminSlide(sliderElementID, slideContentElementID, isUploadDisabled, uploadUrl, uploadDir);
+        });
     }
     return this.slide;
 };

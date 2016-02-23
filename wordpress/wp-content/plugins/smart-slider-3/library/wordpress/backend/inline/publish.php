@@ -3,7 +3,7 @@
         <div class="n2-td n2-first">
             <div class="n2-h2"><?php n2_e('Shortcode'); ?></div>
 
-            <div class="n2-h4"><?php n2_e('Copy and paste this shortcode into your posts:'); ?></div>
+            <div class="n2-h4"><?php n2_e('Copy and paste this shortcode into your posts or pages:'); ?></div>
             <code><div onclick="return selectText(this);">[smartslider3 slider=<?php echo $sliderid; ?>]</div></code>
         </div>
         <div class="n2-td">

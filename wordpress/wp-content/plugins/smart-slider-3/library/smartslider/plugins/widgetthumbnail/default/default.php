@@ -261,10 +261,10 @@ class N2SSPluginWidgetThumbnailDefault extends N2SSPluginWidgetAbstract
         $previous  = $next = '';
         $showArrow = intval($slider->params->get(self::$key . 'arrow', 1));
         if ($showArrow) {
-            $previous = N2Html::image('data:image/svg+xml;base64,' . base64_encode(N2Filesystem::readFile(N2ImageHelper::fixed('$ss$/plugins/widgetthumbnail/default/default/thumbnail-up-arrow.svg', true))), '', array(
+            $previous = N2Html::image('data:image/svg+xml;base64,' . base64_encode(N2Filesystem::readFile(N2ImageHelper::fixed('$ss$/plugins/widgetthumbnail/default/default/thumbnail-up-arrow.svg', true))), 'Arrow', array(
                 'class' => 'nextend-thumbnail-button nextend-thumbnail-previous n2-ow'
             ));
-            $next     = N2Html::image('data:image/svg+xml;base64,' . base64_encode(N2Filesystem::readFile(N2ImageHelper::fixed('$ss$/plugins/widgetthumbnail/default/default/thumbnail-down-arrow.svg', true))), '', array(
+            $next     = N2Html::image('data:image/svg+xml;base64,' . base64_encode(N2Filesystem::readFile(N2ImageHelper::fixed('$ss$/plugins/widgetthumbnail/default/default/thumbnail-down-arrow.svg', true))), 'Arrow', array(
                 'class' => 'nextend-thumbnail-button nextend-thumbnail-next n2-ow n2-active'
             ));
         }

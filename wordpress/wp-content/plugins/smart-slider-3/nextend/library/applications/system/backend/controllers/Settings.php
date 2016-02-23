@@ -34,19 +34,6 @@ class N2SystemBackendSettingsController extends N2BackendController
         }
     }
 
-    /**
-     * Delete all cached js/css files
-     */
-    public function actionClearCache() {
-        if ($this->canDo('nextend_config')) {
-
-            debug_print_backtrace();
-            die('do this method');
-
-            N2Request::redirect($this->appType->router->createUrl(array("settings/index")));
-        }
-    }
-
     public function actionAviary() {
         if ($this->canDo('nextend_config')) {
             N2Loader::import('libraries.image.aviary');

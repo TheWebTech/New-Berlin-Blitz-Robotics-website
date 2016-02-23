@@ -4,7 +4,7 @@ Tags: wordpress slider,carousel,gallery slider,horizontal slider,image slider,la
 Donate link: https://www.facebook.com/nextendweb
 Requires at least: 4.0
 Tested up to: 4.4
-Stable tag: 3.0.23
+Stable tag: 3.0.24
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,8 +101,9 @@ Upgrade to [Pro Version](http://smartslider3.com/pricing/)
 #### Translations
 
 * English
-* Traditional chinese (zh_tw) 99%
-* German (de_DE) 99%
+* Traditional chinese (zh_tw) 90%
+* German (de_DE) 90%
+* Hungarian (hu_HU) 85%
 
 
 == Installation ==
@@ -171,6 +172,11 @@ Of course! Smart Slider use protocol relative urls which works fine on http:// a
 7. [Static slider](http://smartslider3.com/free-static/) - sample slider included
 
 == Changelog ==
+
+= 3.0.24 - 22. February 2016. =
+* Fix: Issue with Visual Composer PHP 5.4 and lower
+* Fix: Missing alt tags from icons
+* Fix: Input elements were not focused when touch enabled
 
 = 3.0.23 - 19. February 2016. =
 * Fix: Less warning on PHP 5.5 and lower

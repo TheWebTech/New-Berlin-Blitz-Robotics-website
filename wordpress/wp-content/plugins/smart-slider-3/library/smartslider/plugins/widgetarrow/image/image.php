@@ -176,9 +176,9 @@ class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract
         }
 
         if ($imageHover === null) {
-            $image = N2Html::image($image, 'arrow', array('class' => 'n2-ow'));
+            $image = N2Html::image($image, 'Arrow', array('class' => 'n2-ow'));
         } else {
-            $image = N2Html::image($image, 'arrow', array('class' => 'n2-arrow-normal-img n2-ow')) . N2Html::image($imageHover, 'arrow', array('class' => 'n2-arrow-hover-img n2-ow'));
+            $image = N2Html::image($image, 'Arrow', array('class' => 'n2-arrow-normal-img n2-ow')) . N2Html::image($imageHover, 'Arrow', array('class' => 'n2-arrow-hover-img n2-ow'));
         }
 
         if ($animation == 'none' || $animation == 'fade') {
