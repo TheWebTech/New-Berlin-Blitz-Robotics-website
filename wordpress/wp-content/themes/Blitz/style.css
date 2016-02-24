@@ -21,7 +21,7 @@ display: inline-block;
 margin-top: 10px;
 }
 .timeline-twitter-feed .ttf-tweet{
-	    background: yellow;
+	    background: #D1A70c;
     border-radius: 15px;
     border: 1px solid #000;
    
@@ -41,7 +41,7 @@ margin-top: 10px;
 	width: 100%;
 	height: 75px;
 	color: #000000; 
-	background-color: yellow;
+	background-color: #D1A70c;
 } 
 .main-menu{background-color:#000}
 .main-menu .navbar-default {
@@ -94,7 +94,7 @@ display:block;}
 }
 
 .all-students .student {
-    background: yellow;
+    background: #D1A70c;
     border-radius: 9px;
     padding: 15px;
     margin-bottom: 10px;
